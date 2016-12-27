@@ -59,7 +59,7 @@ public class Main {
         //String decimalToHex = Integer.toHexString(number);
         //System.out.println("Number to base-16 numeral system: " + decimalToHex);
 
-        /* 5.Exponentiation */
+        /* 5.Fast Exponentiation */
         //double result = RecursiveExponentiation.INSTANCE.pow(number, number2);
         //System.out.println("Result of raised number is: " + result);
     }

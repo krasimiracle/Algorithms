@@ -7,6 +7,13 @@ package com.stoyanov5;
 public enum RecursiveExponentiation {
     INSTANCE;
 
+    /**
+     * Recursive exponentiation of number 'a' on power 'n'.
+     *
+     * @param a Number for exponentiation.
+     * @param n Exponent.
+     * @return Returns result of the exponentiation 'a' on the power 'n'.
+     */
     public double pow(double a, int n) {
         if (n == 0) return 1;
         if (n == 1) return a;
