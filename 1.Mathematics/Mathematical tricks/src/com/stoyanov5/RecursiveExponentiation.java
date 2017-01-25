@@ -14,6 +14,8 @@ public enum RecursiveExponentiation {
      * @param n Exponent.
      * @return Returns result of the exponentiation 'a' on the power 'n'.
      */
+
+    /* Running time is  O(log n) */
     public double pow(double a, int n) {
         if (n == 0) return 1;
         if (n == 1) return a;
